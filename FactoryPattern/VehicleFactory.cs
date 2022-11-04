@@ -16,6 +16,8 @@ namespace FactoryPattern
                     return new Motorcycle();
                 case 4:
                     return new Car();
+                case 18:
+                    return new BigRig();
                 default:
                     return new Car();
             }
